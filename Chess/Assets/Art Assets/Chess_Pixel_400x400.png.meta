@@ -1,0 +1,1788 @@
+fileFormatVersion: 2
+guid: 0399fb3f07ef9b24ab11bdebf08fcce7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -862628888631625975
+    second: B_Blockpath
+  - first:
+      213: 3034374560599996225
+    second: W_Blockpath
+  - first:
+      213: -152981068823686436
+    second: B_Bishop
+  - first:
+      213: 6485253959099533669
+    second: B_Pawn
+  - first:
+      213: -2032222304705097953
+    second: B_Rook
+  - first:
+      213: -9123722140704381039
+    second: B_Knight
+  - first:
+      213: -1660971208315139187
+    second: B_King
+  - first:
+      213: 1904567063557379644
+    second: B_Queen
+  - first:
+      213: -7412573556771290541
+    second: W_Bishop
+  - first:
+      213: 1936081793801746216
+    second: W_Pawn
+  - first:
+      213: 5102671255965873307
+    second: W_Rook
+  - first:
+      213: -7444764407320134756
+    second: W_Knight
+  - first:
+      213: -4448409075962034728
+    second: W_King
+  - first:
+      213: 8787069129555936732
+    second: W_Queen
+  - first:
+      213: 3498947948871417324
+    second: Chess_Pixel_400x400_16
+  - first:
+      213: 4579552848668508865
+    second: Music
+  - first:
+      213: -5848237328341525975
+    second: Sound
+  - first:
+      213: 3361374256078970789
+    second: Chess_Pixel_400x400_19
+  - first:
+      213: -6256958670830631921
+    second: Chess_Pixel_400x400_21
+  - first:
+      213: -5742824146496245405
+    second: Chess_Pixel_400x400_22
+  - first:
+      213: -2693210463847168374
+    second: W_Block
+  - first:
+      213: 6667053980785822159
+    second: Chess_Pixel_400x400_24
+  - first:
+      213: 7126114078096379459
+    second: Chess_Pixel_400x400_25
+  - first:
+      213: -4929939652976652228
+    second: Chess_Pixel_400x400_26
+  - first:
+      213: -8825822781083413876
+    second: Chess_Pixel_400x400_27
+  - first:
+      213: 7040151250144100346
+    second: Chess_Pixel_400x400_28
+  - first:
+      213: 2980914524967506265
+    second: Chess_Pixel_400x400_29
+  - first:
+      213: -1631895158140494541
+    second: Chess_Pixel_400x400_30
+  - first:
+      213: -7613415166532851302
+    second: Chess_Pixel_400x400_31
+  - first:
+      213: 666020812456966217
+    second: Chess_Pixel_400x400_32
+  - first:
+      213: 6355847152730463603
+    second: Border_TopLeft
+  - first:
+      213: -8710706827169620107
+    second: Border_Top
+  - first:
+      213: 2399945617805894614
+    second: Border_TopRight
+  - first:
+      213: -1903250896178899832
+    second: Chess_Pixel_400x400_36
+  - first:
+      213: -2348121329131753593
+    second: Border_Left
+  - first:
+      213: -2928960320864777255
+    second: Border_Right
+  - first:
+      213: -2079072220423498927
+    second: B_Block
+  - first:
+      213: -916019452205570952
+    second: Chess_Pixel_400x400_40
+  - first:
+      213: -7631915734658160315
+    second: Chess_Pixel_400x400_41
+  - first:
+      213: 1125122098920811410
+    second: Chess_Pixel_400x400_42
+  - first:
+      213: 6524436803044455078
+    second: Chess_Pixel_400x400_43
+  - first:
+      213: 7281755248630759701
+    second: Chess_Pixel_400x400_44
+  - first:
+      213: 4153402357529408809
+    second: Chess_Pixel_400x400_45
+  - first:
+      213: -3414978088622163654
+    second: Chess_Pixel_400x400_46
+  - first:
+      213: -9154211909603289649
+    second: Border_BottomLeft
+  - first:
+      213: 1367601085764164901
+    second: Border_Bottom
+  - first:
+      213: 3251464780726859129
+    second: Border_BottomRight
+  - first:
+      213: 5705517903085232929
+    second: Chess_Pixel_400x400_50
+  - first:
+      213: -2321065700188635341
+    second: Chess_Pixel_400x400_51
+  - first:
+      213: 1190671085362536262
+    second: Chess_Pixel_400x400_52
+  - first:
+      213: 135973943784881110
+    second: Chess_Pixel_400x400_53
+  - first:
+      213: 1846226338975007503
+    second: Chess_Pixel_400x400_54
+  - first:
+      213: 4763092079185527202
+    second: Chess_Pixel_400x400_55
+  - first:
+      213: -9221919489506020838
+    second: Chess_Pixel_400x400_56
+  - first:
+      213: -8136595196952368128
+    second: Chess_Pixel_400x400_57
+  - first:
+      213: 9173131868156110035
+    second: Chess_Pixel_400x400_58
+  - first:
+      213: -1306356255818890546
+    second: Chess_Pixel_400x400_59
+  - first:
+      213: -6532038242973127900
+    second: B_Selected_King
+  - first:
+      213: 8057539070615467472
+    second: B_Selected_Queen
+  - first:
+      213: 2821367067496928076
+    second: W_Selected_King
+  - first:
+      213: 917506841387377951
+    second: W_Selected_Queen
+  - first:
+      213: -4301885251554502330
+    second: W_Selected_Rook
+  - first:
+      213: -741219539055989604
+    second: W_Selected_Pawn
+  - first:
+      213: -2801128823499320582
+    second: W_Selected_Bishop
+  - first:
+      213: 1507725942649810675
+    second: W_Selected_Knight
+  - first:
+      213: -153687885489175800
+    second: B_Selected_Rook
+  - first:
+      213: 4261231172748022565
+    second: B_Selected_Bishop
+  - first:
+      213: -4983924473134859163
+    second: B_Selected_Pawn
+  - first:
+      213: 6069219325788439399
+    second: B_Selected_Knight
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: B_Blockpath
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 155
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9073f10a8935704f0800000000000000
+      internalID: -862628888631625975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W_Blockpath
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 155
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1477b0806934c1a20800000000000000
+      internalID: 3034374560599996225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Bishop
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 155
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd29767478080edf0800000000000000
+      internalID: -152981068823686436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Pawn
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 155
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569c25e8d10400a50800000000000000
+      internalID: 6485253959099533669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Rook
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 155
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f4d6fb4981cc3e0800000000000000
+      internalID: -2032222304705097953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Knight
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 155
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197e2f57d07026180800000000000000
+      internalID: -9123722140704381039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_King
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 155
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b893a7c7b03f8e0800000000000000
+      internalID: -1660971208315139187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Queen
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 155
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c361f3a47a16e6a10800000000000000
+      internalID: 1904567063557379644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W_Bishop
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 123
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3528135af9f312990800000000000000
+      internalID: -7412573556771290541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W_Pawn
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 123
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82777a732285eda10800000000000000
+      internalID: 1936081793801746216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W_Rook
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 123
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b943171e87450d640800000000000000
+      internalID: 5102671255965873307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W_Knight
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 123
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b36313732eea890800000000000000
+      internalID: -7444764407320134756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W_King
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 123
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5c8ab93831442c0800000000000000
+      internalID: -4448409075962034728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W_Queen
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 123
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd58bf341d0f1f970800000000000000
+      internalID: 8787069129555936732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_16
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 130
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedff0c0f92ce8030800000000000000
+      internalID: 3498947948871417324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Music
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 132
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2c3076d07dd8f30800000000000000
+      internalID: 4579552848668508865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sound
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 131
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a160a9223e6dea0800000000000000
+      internalID: -5848237328341525975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_19
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 130
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afdaba931006ae20800000000000000
+      internalID: 3361374256078970789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_21
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 135
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0407da5d31da29a0800000000000000
+      internalID: -6256958670830631921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_22
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 135
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3613e849dd36d40b0800000000000000
+      internalID: -5742824146496245405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W_Block
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 118
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8646053a5bcf9ad0800000000000000
+      internalID: -2693210463847168374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_24
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 109
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9c71f9542268c50800000000000000
+      internalID: 6667053980785822159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_25
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 122
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e48dd8ffa05e260800000000000000
+      internalID: 7126114078096379459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_26
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 122
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30d63c6106559bb0800000000000000
+      internalID: -4929939652976652228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_27
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 119
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8219fa11f0648580800000000000000
+      internalID: -8825822781083413876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_28
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 109
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff7cddf244a3b160800000000000000
+      internalID: 7040151250144100346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_29
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 122
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9519d7687f55e5920800000000000000
+      internalID: 2980914524967506265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_30
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 122
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d1b54fff75a59e0800000000000000
+      internalID: -1631895158140494541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_31
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 122
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99ec3f5e37b75690800000000000000
+      internalID: -7613415166532851302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_32
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 122
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948b383766e2e3900800000000000000
+      internalID: 666020812456966217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Border_TopLeft
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 117
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d5d298f41843850800000000000000
+      internalID: 6355847152730463603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Border_Top
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 116
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f1cffba4a5d1780800000000000000
+      internalID: -8710706827169620107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Border_TopRight
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 117
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3639de2d15e4120800000000000000
+      internalID: 2399945617805894614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_36
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 108
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88410dec46b4695e0800000000000000
+      internalID: -1903250896178899832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Border_Left
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 101
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f659f871cc96fd0800000000000000
+      internalID: -2348121329131753593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Border_Right
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 101
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db04a14b1e3a57d0800000000000000
+      internalID: -2928960320864777255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Block
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 101
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1535647b4d6a523e0800000000000000
+      internalID: -2079072220423498927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_40
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 105
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87460f75925a943f0800000000000000
+      internalID: -916019452205570952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_41
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 109
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5496cff231df51690800000000000000
+      internalID: -7631915734658160315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_42
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 108
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bed1b769c3d9f00800000000000000
+      internalID: 1125122098920811410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_43
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 106
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a233f454b47b8a50800000000000000
+      internalID: 6524436803044455078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_44
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 106
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51109f771ddfd0560800000000000000
+      internalID: 7281755248630759701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_45
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 106
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9257fc14079d3a930800000000000000
+      internalID: 4153402357529408809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_46
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 106
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39feef858f8b90d0800000000000000
+      internalID: -3414978088622163654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Border_BottomLeft
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 94
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc51271f4c4b5f080800000000000000
+      internalID: -9154211909603289649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Border_Bottom
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 94
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d596f01f1baf210800000000000000
+      internalID: 1367601085764164901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Border_BottomRight
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 94
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975fae6bdf58f1d20800000000000000
+      internalID: 3251464780726859129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_50
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 93
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123e601cd421e2f40800000000000000
+      internalID: 5705517903085232929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_51
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 92
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fb9ef0b0be9cfd0800000000000000
+      internalID: -2321065700188635341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_52
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 88
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64fdc5f2b0d168010800000000000000
+      internalID: 1190671085362536262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_53
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 88
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbb10ad49313e100800000000000000
+      internalID: 135973943784881110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_54
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 88
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f034395d21d1f9910800000000000000
+      internalID: 1846226338975007503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_55
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 89
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a184549207e91240800000000000000
+      internalID: 4763092079185527202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_56
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 90
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12fdb88519250080800000000000000
+      internalID: -9221919489506020838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_57
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 90
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c218427c1051f80800000000000000
+      internalID: -8136595196952368128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_58
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 90
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4a24f25d28d4f70800000000000000
+      internalID: 9173131868156110035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chess_Pixel_400x400_59
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 90
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec24ecd18e3eedde0800000000000000
+      internalID: -1306356255818890546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Selected_King
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42be15483d98955a0800000000000000
+      internalID: -6532038242973127900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Selected_Queen
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5bdd3181122df60800000000000000
+      internalID: 8057539070615467472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W_Selected_King
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43d32f4662872720800000000000000
+      internalID: 2821367067496928076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W_Selected_Queen
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15a2ef6c93abbc00800000000000000
+      internalID: 917506841387377951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W_Selected_Rook
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6491a94f722ac44c0800000000000000
+      internalID: -4301885251554502330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W_Selected_Pawn
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c2df1a1c8a6b5f0800000000000000
+      internalID: -741219539055989604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W_Selected_Bishop
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af217311d246029d0800000000000000
+      internalID: -2801128823499320582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: W_Selected_Knight
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe684ea1c48ce410800000000000000
+      internalID: 1507725942649810675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Selected_Rook
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8030323beadfdddf0800000000000000
+      internalID: -153687885489175800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Selected_Bishop
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5239775bc2fe22b30800000000000000
+      internalID: 4261231172748022565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Selected_Pawn
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56cbb6ff81b85dab0800000000000000
+      internalID: -4983924473134859163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_Selected_Knight
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7634e8912d23a3450800000000000000
+      internalID: 6069219325788439399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0ba6339a59e735648ac93e335315af16
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
