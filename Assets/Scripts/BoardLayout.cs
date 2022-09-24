@@ -1,35 +1,77 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Scriptable Objects/Board_Layout")]
-public class BoardLayout : ScriptableObject
+public class BoardLayout : MonoBehaviour
 {
-    private string defaultPlacementFEN = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR";
-
-    [Serializable]
-    private class BoardSquareSetup
-    {
-        public Vector2Int position;
-        public PieceType pieceType;
-        public TeamColor teamColor;
-    }
-
+    Vector3[] squarePositions = new Vector3[64];
     //Displayed data
-    [SerializeField] 
-    private BoardSquareSetup[] boardSquares = new BoardSquareSetup[32];
+    [SerializeField]
+    private Vector3 originPos;
+    [SerializeField]
+    private Vector2 diffPos;
+
+
+    [SerializeField]
+    private bool loadFromDefaultFEN = true;
     //
 
-    public BoardLayout()
+    private string defaultPlacementFEN = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR";
+
+    private ArtAssetsData artAssets;
+
+    private void Awake()
     {
+        artAssets = ArtAssetsData.Instance;
+    }
+
+    private void Start()
+    {
+        int x = 0,y =0;
+        for (int i = 0; i < squarePositions.Length; i++)
+        {
+            x = i % 8;
+            if (x == 0)
+            {
+                y++;
+            }
+
+            squarePositions[i].x = originPos.x + (diffPos.x * x);
+            squarePositions[i].y = originPos.y + (diffPos.y * y);
+
+            int q = (x+y) % 2;
+            GameObject obj = new GameObject();
+            obj.transform.position = squarePositions[i] + Vector3.forward* originPos.z;
+            obj.AddComponent<SpriteRenderer>().sprite = artAssets.chessSqChecks[q];
+            obj.AddComponent<BoxCollider2D>();
+            obj.layer = 6;
+        }
         LoadThruFEN(defaultPlacementFEN);
     }
-
     private void LoadThruFEN(string fenStr)
     {
+        Dictionary<char, PieceType> pieceTypeFromID = new Dictionary<char, PieceType> 
+        {
+            ['k'] = PieceType.King,
+            ['q'] = PieceType.Queen,
+            ['n'] = PieceType.Knight,
+            ['b'] = PieceType.Bishop,
+            ['r'] = PieceType.Rook,
+            ['p'] = PieceType.Pawn
+        };
 
+        int rank = 7, file = 0;
+        foreach (char item in fenStr)
+        {
+            if(item == '/')
+            {
+                file = 0;
+                rank--;
+            }
+        }
     }
 
-    public int GetPiecesCount()
+/*    public int GetPiecesCount()
     {
         return boardSquares.Length;
     }
@@ -47,5 +89,5 @@ public class BoardLayout : ScriptableObject
     {
         return boardSquares[index].teamColor;
     }
-
+*/
 }
