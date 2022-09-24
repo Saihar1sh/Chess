@@ -11,6 +11,8 @@ public class BoardLayout : MonoBehaviour
     [SerializeField]
     private Vector2 diffPos;
 
+    [SerializeField]
+    private Transform boardParent;
 
     [SerializeField]
     private bool loadFromDefaultFEN = true;
@@ -40,11 +42,12 @@ public class BoardLayout : MonoBehaviour
             squarePositions[i].y = originPos.y + (diffPos.y * y);
 
             int q = (x+y) % 2;
-            GameObject obj = new GameObject();
+            GameObject obj = new GameObject(""+i);
             obj.transform.position = squarePositions[i] + Vector3.forward* originPos.z;
             obj.AddComponent<SpriteRenderer>().sprite = artAssets.chessSqChecks[q];
             obj.AddComponent<BoxCollider2D>();
             obj.layer = 6;
+            obj.transform.SetParent(boardParent);
         }
         LoadThruFEN(defaultPlacementFEN);
     }
