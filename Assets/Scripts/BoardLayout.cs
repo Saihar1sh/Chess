@@ -5,6 +5,9 @@ using UnityEngine;
 public class BoardLayout : MonoBehaviour
 {
     Vector3[] squarePositions = new Vector3[64];
+
+    GameObject[] chessSquares = new GameObject[64];
+
     //Displayed data
     [SerializeField]
     private Vector3 originPos;
@@ -29,6 +32,8 @@ public class BoardLayout : MonoBehaviour
 
     private void Start()
     {
+        artAssets = ArtAssetsData.Instance;
+
         int x = 0,y =0;
         for (int i = 0; i < squarePositions.Length; i++)
         {
@@ -48,6 +53,7 @@ public class BoardLayout : MonoBehaviour
             obj.AddComponent<BoxCollider2D>();
             obj.layer = 6;
             obj.transform.SetParent(boardParent);
+            chessSquares[i] = obj;
         }
         LoadThruFEN(defaultPlacementFEN);
     }
@@ -70,6 +76,16 @@ public class BoardLayout : MonoBehaviour
             {
                 file = 0;
                 rank--;
+            }
+            else if (char.IsDigit(item))
+            {
+                file += (int)char.GetNumericValue(item);
+            }
+            else
+            {
+                TeamColor teamColor = char.IsUpper(item) ? TeamColor.White : TeamColor.Black;
+                PieceType pieceType = pieceTypeFromID[char.ToLower(item)];
+                //piece creation
             }
         }
     }

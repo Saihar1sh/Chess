@@ -7,7 +7,7 @@ public class ArtAssetsData : MonoBehaviour
     #region Singleton Instance
     private static ArtAssetsData instance;
     public static ArtAssetsData Instance { get { return instance; } }
-/*    private void SingletonInstantiate()
+    private void SingletonInstantiate()
     {
         if (instance == null)
         {
@@ -17,27 +17,14 @@ public class ArtAssetsData : MonoBehaviour
         {
             Destroy(this);
         }
-    }
-*/    
-    public ArtAssetsData()
-    {
-        if (instance == null)
-        {
-            instance = this;
-        }
-        else if (instance != null || instance != this)
-        {
-            Destroy(this);
-        }
-        Debug.Log("Art Assets singleton created");
     }
     #endregion
-    public Sprite[] chessSqChecks = new Sprite[2];
 
+    public Sprite[] chessSqChecks = new Sprite[2];
 
     private void Awake()
     {
-        //SingletonInstantiate();
+        SingletonInstantiate();
     }
 
 }
