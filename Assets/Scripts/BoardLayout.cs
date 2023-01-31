@@ -6,7 +6,7 @@ public class BoardLayout : MonoBehaviour
 {
     Vector3[] squarePositions = new Vector3[64];
 
-    GameObject[] chessSquares = new GameObject[64];
+    ChessBlock[] chessSquares = new ChessBlock[64];
 
     //Displayed data
     [SerializeField]
@@ -15,26 +15,42 @@ public class BoardLayout : MonoBehaviour
     private Vector2 diffPos;
 
     [SerializeField]
-    private Transform boardParent;
+    private Color color1, color2;
 
     [SerializeField]
-    private bool loadFromDefaultFEN = true;
+    private Vector2Int screenRatio;
+
+    [SerializeField]
+    private Transform boardParent, cameraTransfrom;
+
+    [SerializeField]
+    private bool loadFromDefaultFEN_Bool = true;
+
+    [SerializeField]
+    private ChessBlock blockPrefab;
+
+    public Sprite[] chessSqCheckSprites = new Sprite[2];
+    public Transform bGTransform;
     //
 
     private string defaultPlacementFEN = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR";
 
-    private ArtAssetsData artAssets;
-
     private void Awake()
     {
-        artAssets = ArtAssetsData.Instance;
+        Camera.main.orthographicSize = bGTransform.localScale.x * Screen.height / Screen.width * 0.5f;
+
     }
 
     private void Start()
     {
-        artAssets = ArtAssetsData.Instance;
+        ArrangeChessBoard();
+        if(loadFromDefaultFEN_Bool)
+        LoadThruFEN(defaultPlacementFEN);
+    }
 
-        int x = 0,y =0;
+    private void ArrangeChessBoard()
+    {
+        int x = 0, y = 0;
         for (int i = 0; i < squarePositions.Length; i++)
         {
             x = i % 8;
@@ -46,17 +62,25 @@ public class BoardLayout : MonoBehaviour
             squarePositions[i].x = originPos.x + (diffPos.x * x);
             squarePositions[i].y = originPos.y + (diffPos.y * y);
 
-            int q = (x+y) % 2;
-            GameObject obj = new GameObject(""+i);
-            obj.transform.position = squarePositions[i] + Vector3.forward* originPos.z;
-            obj.AddComponent<SpriteRenderer>().sprite = artAssets.chessSqChecks[q];
-            obj.AddComponent<BoxCollider2D>();
-            obj.layer = 6;
-            obj.transform.SetParent(boardParent);
-            chessSquares[i] = obj;
+            
+            chessSquares[i] = CreateChessSquare(i, x,y);
+
         }
-        LoadThruFEN(defaultPlacementFEN);
+        Camera.main.orthographicSize = bGTransform.localScale.x * Screen.height / Screen.width * 0.5f;
+        //cameraTransfrom.position = new Vector3((float)screenRatio.x / 2 - 0.5f, (float)screenRatio.x / 2 - 0.5f, -10f);
     }
+
+    private ChessBlock CreateChessSquare(int i, int indX, int indY)
+    {
+        ChessBlock chessBlock = Instantiate(blockPrefab);
+        chessBlock.Init(indX,indY, (indX+indY)%2==0? color1:color2);
+        GameObject obj = chessBlock.gameObject;
+        obj.name = "" + i;
+        obj.transform.position = squarePositions[i] + Vector3.forward * originPos.z;
+        obj.transform.SetParent(boardParent);
+        return chessBlock;
+    }
+
     private void LoadThruFEN(string fenStr)
     {
         Dictionary<char, PieceType> pieceTypeFromID = new Dictionary<char, PieceType> 
@@ -86,6 +110,9 @@ public class BoardLayout : MonoBehaviour
                 TeamColor teamColor = char.IsUpper(item) ? TeamColor.White : TeamColor.Black;
                 PieceType pieceType = pieceTypeFromID[char.ToLower(item)];
                 //piece creation
+                PieceBase piece = PieceCreatorService.Instance.CreatePiece(pieceType, teamColor);
+                chessSquares[rank * 8 + file].Place_Piece(piece);
+                file++;
             }
         }
     }

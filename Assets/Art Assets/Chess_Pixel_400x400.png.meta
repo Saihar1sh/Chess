@@ -210,7 +210,7 @@ TextureImporter:
       213: 6069219325788439399
     second: B_Selected_Knight
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -231,6 +231,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -253,7 +254,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -269,13 +270,14 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -284,10 +286,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -296,10 +298,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -308,10 +310,22 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1780,6 +1794,76 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Chess_Pixel_400x400_31: -7613415166532851302
+      Border_Bottom: 1367601085764164901
+      Sound: -5848237328341525975
+      Chess_Pixel_400x400_41: -7631915734658160315
+      W_Pawn: 1936081793801746216
+      W_Queen: 8787069129555936732
+      Chess_Pixel_400x400_16: 3498947948871417324
+      Chess_Pixel_400x400_54: 1846226338975007503
+      B_Bishop: -152981068823686436
+      W_Selected_Queen: 917506841387377951
+      Chess_Pixel_400x400_32: 666020812456966217
+      Chess_Pixel_400x400_53: 135973943784881110
+      B_Block: -2079072220423498927
+      W_Bishop: -7412573556771290541
+      Chess_Pixel_400x400_43: 6524436803044455078
+      B_King: -1660971208315139187
+      Chess_Pixel_400x400_19: 3361374256078970789
+      W_Selected_Pawn: -741219539055989604
+      Chess_Pixel_400x400_29: 2980914524967506265
+      Music: 4579552848668508865
+      Chess_Pixel_400x400_36: -1903250896178899832
+      B_Selected_Bishop: 4261231172748022565
+      W_King: -4448409075962034728
+      W_Block: -2693210463847168374
+      Chess_Pixel_400x400_51: -2321065700188635341
+      Chess_Pixel_400x400_28: 7040151250144100346
+      W_Selected_Knight: 1507725942649810675
+      Chess_Pixel_400x400_22: -5742824146496245405
+      Chess_Pixel_400x400_42: 1125122098920811410
+      B_Selected_Queen: 8057539070615467472
+      B_Selected_Rook: -153687885489175800
+      Chess_Pixel_400x400_25: 7126114078096379459
+      W_Knight: -7444764407320134756
+      Border_Right: -2928960320864777255
+      B_Pawn: 6485253959099533669
+      Chess_Pixel_400x400_44: 7281755248630759701
+      Chess_Pixel_400x400_30: -1631895158140494541
+      Chess_Pixel_400x400_27: -8825822781083413876
+      W_Selected_King: 2821367067496928076
+      Border_TopRight: 2399945617805894614
+      B_Blockpath: -862628888631625975
+      Chess_Pixel_400x400_50: 5705517903085232929
+      Border_Left: -2348121329131753593
+      Border_Top: -8710706827169620107
+      Chess_Pixel_400x400_21: -6256958670830631921
+      Chess_Pixel_400x400_45: 4153402357529408809
+      Chess_Pixel_400x400_58: 9173131868156110035
+      Chess_Pixel_400x400_46: -3414978088622163654
+      W_Selected_Rook: -4301885251554502330
+      W_Blockpath: 3034374560599996225
+      Border_BottomRight: 3251464780726859129
+      B_Queen: 1904567063557379644
+      Border_BottomLeft: -9154211909603289649
+      W_Rook: 5102671255965873307
+      B_Selected_King: -6532038242973127900
+      B_Selected_Pawn: -4983924473134859163
+      B_Knight: -9123722140704381039
+      Chess_Pixel_400x400_56: -9221919489506020838
+      Chess_Pixel_400x400_55: 4763092079185527202
+      Chess_Pixel_400x400_26: -4929939652976652228
+      Chess_Pixel_400x400_52: 1190671085362536262
+      W_Selected_Bishop: -2801128823499320582
+      Chess_Pixel_400x400_57: -8136595196952368128
+      B_Selected_Knight: 6069219325788439399
+      Chess_Pixel_400x400_59: -1306356255818890546
+      Chess_Pixel_400x400_24: 6667053980785822159
+      Border_TopLeft: 6355847152730463603
+      Chess_Pixel_400x400_40: -916019452205570952
+      B_Rook: -2032222304705097953
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
